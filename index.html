@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title></title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+		<link href="assets/stylesheet.css" rel="stylesheet">
+
+
+</head>
+
+
+
+
+<body>
+	<div id="header">
+
+		<div id="logo">TSFiddle</div>
+			<div id="buttonContainer">
+
+			<div class="switchButton selected" id="html">HTML</div>
+			<div class="switchButton" id="css">CSS</div>
+			<div class="switchButton" id="js">JavaScript</div>
+			<div class="switchButton selected" id="output">Output</div>
+
+
+			</div>
+	</div>
+
+	<div>
+		
+		<div id="bodyContainer">
+			
+		<textarea id="htmlPanel" class="panel">Hello World</textarea>
+		<textarea id="cssPanel" class="panel hidden"></textarea>
+		<textarea id="jsPanel" class="panel hidden"></textarea>
+		<iframe id="outputPanel" class="panel"></iframe>
+
+		</div>
+
+
+	</div>
+
+		<script src="jquery-ui/jquery-ui.js"></script>
+		<script src="min.js"></script>
+		<script src="assets/script.js"></script>
+		<script type="text/javascript"></script>
+</body>
+</html>

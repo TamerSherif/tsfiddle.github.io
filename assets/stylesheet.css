@@ -1,0 +1,102 @@
+	
+
+		body {
+
+
+			font-family: 'Open Sans', sans-serif;
+			padding: 0;
+			margin: 0;
+		}
+
+		#header {
+
+		width: 100%;
+		background-color: #4285F4;
+		color: white;
+		padding: 7px;
+		height: 35px;
+
+
+		}
+
+		#logo {
+
+			float: left;
+			font-weight: bold;
+			font-size: 140%;
+			padding: 2px 4px;
+		}
+
+		#buttonContainer{
+
+			width: 245px;
+			margin: 0 auto;
+			text-align: center;
+			
+		
+
+		}
+
+		.switchButton {
+
+			float: left;
+			border: 1.5px solid black;
+			padding: 6px;
+			border-right: none;
+			font-size: 95%;
+
+			
+		}
+
+		#html {
+
+			border-top-left-radius: 5.5px;
+			border-bottom-left-radius: 5.5px;
+		}
+
+		#output {
+
+			border-right: 1.5px solid black;
+			border-top-right-radius: 5.5px;
+			border-bottom-right-radius: 5.5px;
+
+		}
+
+		.selected {
+
+			background-color: #00b3db;
+
+		}
+
+		.highlighted {
+
+			background-color: #69CBE6;
+
+		}
+
+		textarea {
+
+		
+			resize: none;
+			border-top: none;
+			border-color: #4285F4;
+	
+		}
+
+		.panel {
+
+		width: 50%;
+		float: left;
+		border-left: none;
+
+		}
+
+		iframe {
+
+			border: none;
+		}
+
+		.hidden {
+
+			display: none;
+		}
